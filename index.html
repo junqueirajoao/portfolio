@@ -1,30 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>Portfólio</title>
-</head>
-<body>
-
-    <div class="container">
-        <header>
-            <div class="img-wrapper">
-                <img src="imagens/bg.jpg" alt="">    
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <title>Portfólio</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+                <span>Fechar</span>
             </div>
-            <div class="banner">
-                <h1>Desenvolvedor Web</h1>
-                <p>João Francisco Junqueira Franco Neto</p>
-                <button>Saiba mais</button>                
-            </div>
-         
-        </header>
-    </div>        
+            <header>
+                <div class="img-wrapper">
+                    <img src="imagens/bg2.jpg" alt="">    
+                </div>
+                <div class="banner">
+                    <h1>Desenvolvedor Web</h1>
+                    <p>João Francisco Junqueira Franco Neto</p>
+                    <button>Saiba mais</button>                
+                </div>
+            </header>  
     
-</body>
+            <aside class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                        <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                        <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github-alt"></i></a>
+                </div>
+            </aside>
+
+            <section class="sessao-conhecimentos">
+                <div class="sessao-header">
+                    <h1>Conhecimentos</h1>
+                </div>
+                <div class="conhecimentos">
+                    <div class="conhecimento">
+                        <div class="conhecimentoreader">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero eveniet excepturi facere, iusto accusantium iure earum fugit repudiandae sit reiciendis dolores consequatur officiis inventore minima dolor minus unde pariatur!</p>
+                        </div>
+                    </div>                    
+                    <div class="conhecimento">
+                        <div class="conhecimentoreader">
+                            <i class="fab fa-css3"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, necessitatibus? Voluptatum sapiente dolores optio libero perspiciatis labore voluptatibus maxime necessitatibus possimus minus dolor aperiam, voluptate maiores, voluptatem perferendis! Fuga, quo!</p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimentoreader">
+                            <i class="fab fa-js"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque esse sit obcaecati nam laboriosam fuga excepturi vel. Sint ipsa soluta corrupti illo, excepturi eius ut ducimus veritatis, minima voluptatem a.</p>
+                        </div>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="conhecimentoreader">
+                            <i class="fab fa-github"></i>
+                            <h3>Git e Github</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dolores, molestias ea eius at debitis doloremque quidem, asperiores, omnis quis aperiam commodi sint sapiente? Officia sint soluta consequatur ex accusantium.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
 </html>
